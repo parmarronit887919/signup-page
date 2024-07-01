@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="backgroundImage">
+            <img src="images/backgroundimage.jpg" alt="image">
+            <div class="waterMark">
+                <img src="images/odin-logo.png" alt="image">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="form">
+            <div class="sentence">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams.</p>
+                <p>Sign up now to get started.</p>
+                <p class="last">You know you want to.</p>
+            </div>
+
+            <div class="mainForm">
+                <h1>Let's do this!</h1>
+                <form action="#">
+                    <div class="row1">
+                        <div class="section sec-1">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="firstName" id="firstName" class="validation">
+                        </div>
+                        <div class="section sec-2">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" name="lastName" id="lastName" class="validation">
+                        </div>
+                    </div>
+
+
+                    <div class="row2">
+                        <div class="section sec-3">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" class="validation">
+                        </div>
+                        <div class="section sec-4">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="number" name="phoneNumber" id="phoneNumber" minlength="10" class="validation">
+                        </div>
+                    </div>
+
+
+                    <div class="row3">
+                        <div class="section sec-5">
+                            <label for="pass_word">PASSWORD</label>
+                            <input type="password" name="pass_word" id="pass_word" pattern="(\d{5}([\-]\d{4})?)" class="validation">
+                        </div>
+                        <div class="section sec-6">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" minlength="10" class="validation">
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="submissionSection">
+                <button type="submit">Create Accont</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
